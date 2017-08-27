@@ -17,6 +17,7 @@ scrapy crawl sample
 [Scrapy入門](http://data.gunosy.io/entry/python-scrapy-scraping)  
 settings.pyで設定をする  
 pipelines.pyでファイルやDB書き込みをする  
+s
 
 # document  
 [scrapy](https://doc.scrapy.org/)

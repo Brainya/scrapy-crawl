@@ -35,10 +35,11 @@ class SampleSpider(scrapy.Spider):
             pass
 
     def parse(self, response):
+        # 非同期的にスクレイピングしたURLのレスポンス
+        print(response.text)
+
         item = CrawlSampleItem(
             name = ""
         )
-        MailSender(mailfrom=string)
-
         yield item
 

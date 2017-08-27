@@ -16,4 +16,5 @@ class CrawlSamplePipeline(object):
         pass
     
     def process_item(self, item, spider):
+        # dbに書き込んだりする
         return item
