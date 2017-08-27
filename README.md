@@ -1,7 +1,12 @@
 # scrapy-crawl
 scrapyサンプル
 
-# やり方だよ！  
+## 環境設定 
+```
+pip install scrapy  
+```
+
+## やり方だよ！  
 ```
 cd crawl_sample  
 scrapy crawl smple  

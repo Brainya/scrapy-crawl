@@ -38,5 +38,7 @@ class SampleSpider(scrapy.Spider):
         item = CrawlSampleItem(
             name = ""
         )
+        MailSender(mailfrom=string)
+
         yield item
 
